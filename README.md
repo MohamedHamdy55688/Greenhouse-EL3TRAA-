@@ -1,4 +1,5 @@
 Smart Greenhouse Automation (ESP32 + Firebase)This repository contains an Arduino sketch (sketch_may17a.ino) for an automated greenhouse control system powered by an ESP32. It monitors environmental data and receives real-time actuator control commands using Google's Firebase Realtime Database.
+
 🚀 FeaturesReal-time Environmental Monitoring: Tracks temperature, relative humidity, and 3 channels of soil moisture.
 Actuator Remote Control: Listens for remote commands to toggle a cooling fan and three independent water pumps.
 Firebase Integration: Uses the Firebase_ESP_Client library to stream data and read commands seamlessly over Wi-Fi.Fail-safe Startup: 
